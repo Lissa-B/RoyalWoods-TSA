@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Residents | Royal Woods</title>
+   <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Anonymous Pro' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Residents.css">
+  <script defer src="Residents.js"></script>
+</head>
+
+<body>
+
+<header class="top-bar">
+  <div class="logo">
+    <img src="tree.png" alt="Royal Woods logo">
+    <h1><a href="index.html">Royal Woods<br><span>Texas</span></a></h1>
+  </div>
+
+  <form class="search-form">
+    <input type="text" class="search-input" placeholder="Search...">
+    <button type="submit" class="search-button">Search</button>
+  </form>
+
+</header>
+
+<nav class="navbar">
+  <a class="active" href="Residents.html">Residents</a>
+  <a href="Support.html">Support Services</a>
+  <a href="Programs.html">Programs & Events</a>
+  <a href="Business.html">Business</a>
+</nav>
+
+<main class="residents-container">
+
+  <aside class="side-nav">
+    <button class="tab active" data-section="library">Library</button>
+    <button class="tab" data-section="parks">Parks & Recreation</button>
+    <button class="tab" data-section="community">Community Center</button>
+  </aside>
+
+  <section class="content-area">
+
+    <div class="content-section active" id="library">
+      <h2>Community Library</h2>
+      <p>The Royal Woods Community Library offers books, digital resources, study spaces, and educational programs for all ages.</p>
+
+    <div class="info-card">
+      <div>
+        <h4>📘 Book of the Week</h4>
+        <p>Featured reading selected by library staff.</p>
+        <p><em>"The Great Gatsby" by F. Scott Fitzgerald</em></p>
+        <p>A classic novel exploring themes of decadence, idealism, and excess in 1920s America.</p>
+      </div>
+    <img src="book.png" alt="Book of the Week">
+    </div>
+
+      <div class="info-card">
+        <h4>📰 Library News</h4>
+        <p>Updates on hours, events, and new resources.</p>
+        <div class="news-item">
+          <h5>New E-Book Collection Launched</h5>
+          <p>Explore our expanded digital library with thousands of new e-books and audiobooks.</p>
+        </div>
+      </div> </div>
+
+    <div class="content-section" id="parks">
+      <h2>Parks & Recreation</h2>
+      <p>Royal Woods parks provide green spaces, walking trails, playgrounds, and recreational programs.</p>
+
+      <div class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active"><img src="Park1.jpg" alt="Park 1"></div>
+          <div class="carousel-item"><img src="Park2.jpg" alt="Park 2"></div>
+          <div class="carousel-item"><img src="Park3.jpg" alt="Park 3"></div>
+          <div class="carousel-item"><img src="Park4.jpg" alt="Park 4"></div>
+        </div>
+        <button class="carousel-control prev" onclick="moveSlide(-1, this)">&#10094;</button>
+        <button class="carousel-control next" onclick="moveSlide(1, this)">&#10095;</button>
+      </div>
+    </div>
+
+    <div class="content-section" id="community">
+      <h2>Community Center</h2>
+      <p>The Community Center hosts events, workshops, fitness classes, and public meetings.</p>
+      
+      <div class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active"><img src="community1.jpg" alt="Community 1"></div>
+          <div class="carousel-item"><img src="community2.jpg" alt="Community 2"></div>
+          <div class="carousel-item"><img src="community3.jpg" alt="Community 3"></div>
+          <div class="carousel-item"><img src="community4.jpg" alt="Community 4"></div>
+        </div>
+        <button class="carousel-control prev" onclick="moveSlide(-1, this)">&#10094;</button>
+        <button class="carousel-control next" onclick="moveSlide(1, this)">&#10095;</button>
+      </div>
+    </div>
+
+  </section>
+</main>
+
+<footer>
+  <div class="footer-box">
+    <h4>Contact Us</h4>
+    <p>Email: info@royalwoods.org</p>
+    <p>Phone: (555) 123-4567</p>
+  </div>
+
+  <div class="footer-box">
+    <h4>Quick Links</h4>
+    <a href="Programs.html">Event Calendar</a>
+    <a href="Form.html">Submit a Resource</a>
+    <a href="Support.html">Help Center</a>
+    <a href="TSA- John B. Connally.pdf">Reference Sheet</a>
+    <a href="Forms-Student-Copyright-Checklist.pdf">Student Copyright Checklist</a>
+
+
+  </div>
+</footer>
+
+</body>
+</html>
+
